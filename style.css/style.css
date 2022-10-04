@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headimg {
+    position: relative;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 350px;
+    justify-content: center;
+    font-size: 28px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 10px;
+    line-height: 10px;
+}
+
+.img {
+    opacity: 0.75;
+}
+
+.lik {
+    padding: 10px;
+    list-style: none;
+    font-size: 18px;
+
+    }
+
+.menuicon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu :hover {
+    background-color: #EEF1FF;
+}
+
+.murad {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.imgtext {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.text2 {
+    padding: 40px;
+    margin-top: 20px;
+    text-align: start;
+    }
+
+.girl {
+    opacity: 0.65;
+    }
+
+.girl:hover {
+    opacity: 1;
+}
