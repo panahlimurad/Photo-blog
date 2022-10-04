@@ -5,35 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div>
-        <div class="headimg">
-            <img class="img" src="head.jpg" width="100%" height="400" alt="head">
-            <div class="logo">MY WEBSITE LOGO</div>
+    <header>
             <div>
-                <ul class="menu">
-                    <li class="lik"><a href="home">HOME</a></li>
-                    <li class="lik"><i class="fa-solid fa-user"></i><a href="about">ABOUT</a></li>
-                    <li class="lik"><i class="fa-sharp fa-solid fa-list"></i><a href="portfolio">PORTFOLIO</a></li>
-                    <li class="lik"><i class="fa-sharp fa-solid fa-envelope"></i><a href="contact">CONTACT</a></li>
+                <ul class="nav">
+                    <li><a href="home">HOME</a></li>
+                    <li><i class="fa-solid fa-user"></i><a href="about">ABOUT</a></li>
+                    <li><i class="fa-sharp fa-solid fa-list"></i><a href="portfolio">PORTFOLIO</a></li>
+                    <li><i class="fa-sharp fa-solid fa-envelope"></i><a href="contact">CONTACT</a></li>
                 </ul>
             </div>
-            <div>
-                <ul class="menuicon">
-                    <li>
-                        <button class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </li>
-                </ul>
+            <div class="search">
+                     <input type="search" name="search" id=""><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-        </div>
-    </div><br><br><br>
-    <div class="murad">
-        <h1>ABOUT ME</h1><br>
-        <p>I LOVE PHOTOGRAPHY</p><br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum 
+    </header>
+    <main> 
+       <div class="first-img"><img width="100%" height="400px" src="img/head.jpg" alt="girl">
+        <div class="first-img-logo"><h1>MY WEBSITE LOGO</h1></div>
+    </div>
+    <div class="content">
+        <div class="text"><h1>ABOUT ME</h1></div>
+        <div><p>I LOVE PHOTOGRAPHY</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum 
              labore quo facilis inventore officiis voluptates provident, veritatis voluptatibus tempore quidem, repellat 
              iure repellendus eveniet rerum. Praesentium laborum autem qui eos, voluptates adipisci, amet tenetur 
              deserunt odio facilis, unde labore. Et non accusantium quis, veniam labore soluta, ex explicabo
@@ -50,11 +46,12 @@
                  totam incidunt dignissimos molestiae optio aliquam hic labore, nulla ipsum? Totam, ut ratione 
                  atque illo nesciunt inventore voluptas quia architecto aliquid sunt iure sequi voluptatibus, 
                  vitae, laborum placeat perspiciatis incidunt tempora labore?</p>
-    </div><br><br><br>
+        </div>
+    </div>
     <div class="imgtext">
         <div>
             <h3><i class="fa-solid fa-user"></i>My name</h3><br><br>
-            <img class="girl" src="girl.jpg" height="300px" alt="girl">
+            <img class="girl" src="img/girl.jpg" height="300px" alt="girl">
         </div>
         <div>
             <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perferendis ea ad illum id qui
@@ -66,6 +63,32 @@
                    nostrum dolorum quisquam iure! Saepe quo, voluptatem praesentium 
                 rem mollitia magnam, consectetur nulla laborum earum odio voluptatibus!</p>
         </div>
-    </div><br><br>
+    </div>
+
+    <div class="short-text">
+        <p>IM REALLY GOOD AT</p>
+    </div>
+
+    <div class="big-box">
+        <div class="all-present">
+         <div class="one-box">
+            <div><i class="fa-solid fa-camera"></i><p>Photography</p></div>
+            <div><p>90%</p></div>
+            <div><p>Lorem, ipsum dolor.</p></div>
+         </div>
+         <div>
+            <div><i class="fa-solid fa-laptop"></i></div>
+            <div><p>90%</p></div>
+            <div><p>Lorem, ipsum dolor.</p></div>
+         </div>
+         <div>
+            <div><i class="fa-solid fa-photo-film"></i></div>
+            <div><p>90%</p></div>
+            <div><p>Lorem, ipsum dolor.</p></div>
+         </div>
+        </div>
+    </div>
+
+    </main>
 </body>
 </html>
