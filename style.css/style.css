@@ -16,7 +16,7 @@ button {
     
 }
 
-input {
+.search input {
     border: none;
     width: 85%;
     height: 100%;
@@ -119,16 +119,230 @@ header {
 }
 
 .big-box {
-    background-color: rgb(155, 49, 49);    width: 100%;
+    width: 100%;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .all-present {
-    background-color: aquamarine;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .one-box {
-    background-color: chartreuse;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
+
+.icon-text {
+    display: flex;
+
+}
+
+.persent {
+    display: flex;
+    background-color: blueviolet;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.text-small {
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #616161;
+}
+
+.self-one {
+    background-color: #616161;
+    flex-grow: 9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-one {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-grow: 1;
+}
+
+.self-two {
+    background-color: #616161;
+    flex-grow: 8.5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-two {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-grow: 1.5;
+} 
+
+.self-three {
+    background-color: #616161;
+    flex-grow: 7.5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.empty-three {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-grow: 2.5;
+} 
+
+.work-self {
+    background-color:#616161;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    align-items: center;
+}
+
+.client-com {
+    background-color: #616161;
+    height: 100%;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.my-work {
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(7, 7, 8, 0.377);
+    padding: 10px;
+    
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    
+}
+
+.pic-self {
+    width: 260px;
+    height: 260px;
+    padding: 10px;
+}
+
+.pic-self :hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.lead button {
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    }
+
+.lead {
+    display: flex;
+    justify-content: center;
+}
+
+.lead :hover {
+    background-color: #616161;
+    }
+
+    .contact-img {
+        display: flex;
+        margin-top: 50px;
+        height: 400px;
+        width: 100%;
+        opacity: 0.5;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact {
+        position: absolute;
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        letter-spacing: 5px;
+        background-color: rgba(8, 4, 4, 0.753);
+
+    }
+
+    .geo {
+        font-size: 25px;
+        margin-top: 50px;
+        text-align: center;
+        color: #616161;
+    }
+
+    .map {
+        width: 270px;
+        height: 270px;
+    }
+
+    .all-info {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .map-contact {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 70px;
+    }
+
+    .number-mail {
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .info-inp {
+        font-size: 20px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .number-mail button {
+        float: right;
+        font-size: 20px;
+        padding: 5px;
+        color: white;
+        background-color: black;
+    }
+
+    .number-mail button:hover {
+        background-color: #616161;
+        border: none;
+    }
+
+    /* main */
+
+    /* footer */
