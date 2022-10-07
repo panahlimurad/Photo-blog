@@ -346,3 +346,24 @@ header {
     /* main */
 
     /* footer */
+
+    footer {
+        background-color: #616161;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer button {
+       border: none;
+       width: 150px;
+       height: 50px;
+       padding: 10px;
+       font-size: 15px;
+    }
+
+    footer button i {
+        margin-right: 10px;
+    }
