@@ -16,6 +16,16 @@ button {
     
 }
 
+.ham-menu {
+    opacity: 0.4;
+    cursor: pointer;
+    display: none;
+}
+
+.ham-menu:hover {
+    transform: scale(0.95);
+}
+
 .search input {
     border: none;
     width: 85%;
@@ -387,3 +397,4 @@ header {
     }
 
     /* footer */
+

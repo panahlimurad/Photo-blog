@@ -1,0 +1,27 @@
+@media screen and (max-width:480px) {
+
+    .content {
+        width: 100%;
+  
+    }
+
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .nav {
+        display: none;
+    }    
+
+    .ham-menu {
+        display: block;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .first-img-logo {
+        width: 50%;
+        font-size: 10px;
+    }
+}
